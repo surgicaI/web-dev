@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--jquery From CDN, another way is to download minified jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>JQuery Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1 id="name"></h1>
+
+        <div class="row">
+            <div id="left-margin" class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="me" src="images/simi.png" class="img-responsive img-thumbnail"></img>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <button id="show" type="button" class="btn btn-primary btn-block">Show image</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="hide" type="button" class="btn btn-primary btn-block"">Hide image</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="shape" type="button" class="btn btn-primary btn-block"">Toggle shape</button>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <button id="slide" type="button" class="btn btn-primary btn-block">Slide image</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="animate" type="button" class="btn btn-primary btn-block"">Animate image</button>
+                    </div>
+                </div>
+
+            </div>
+            <div id="right-margin" class="col-md-4"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

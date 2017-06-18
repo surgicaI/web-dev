@@ -1,0 +1,48 @@
+body {
+    background: url("background.jpg");
+    background-size: cover; 
+}
+div.name {
+    /*position: absolute;*/
+    width :50%;
+    text-align: center;
+    font-family: 'Arima Madurai', serif;
+    font-size: 55px;
+    text-shadow: 2px 2px grey;
+    color: #003366;
+    font-weight: bold;
+    margin: auto;
+    border-bottom: 1px solid #003366 ;
+    line-height: 80px;
+    /*text-decoration: underline;
+    text-transform: uppercase;*/
+}
+div.social_links{
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Ubuntu', serif;
+    font-size: 20px;
+    color: #003366;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent ;
+}
+hr.under_name{
+    position: relative;
+    bottom: 30px;
+    width: 50%;
+    color: #003366;
+    height: 0px;
+}
+a{
+    text-decoration: none !important;
+    color: #005ebc;
+}
+img.circular_image{
+    border-radius: 50%;
+}
+p.main_content{
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    text-align: justify;
+}
