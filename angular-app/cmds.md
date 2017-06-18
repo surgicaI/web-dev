@@ -1,5 +1,7 @@
 # Commands and Instructions:
 
+### Find Angular JS DOCS [here](https://angular.io/docs)
+
 ### Install latest version of [Node JS](https://nodejs.org/en/)
 
 ### Command to install [Angular CLI](https://cli.angular.io/)
@@ -43,3 +45,43 @@
   styleUrls: ['./app.component.css']
 })
 ```
+
+## Data Bindings
+#### String Interpolations:
+- Define the variable or function in typescript file, such as the result is a string(or anything that can be converted into a string). eg: `name = "Brad Pitt"`
+- Use syntax `<h1> Hello {{ name }} ! </h1>` to use string interpolation.
+
+#### Property binding:
+- Using property binding we are able to directly bind to the native property of DOM elements(does not bind to the attributes).
+- Define variable in typescript, such that it returns the same type as required by certain property. eg: `btn-disabled=true`
+- Then bind that to some property in html using following syntax.  
+`<button [disabled]="btn-disabled">My Button</buton>`
+
+#### Event binding:
+- Define a function in typescript file, which will be triggered by the event eg:  
+`mouseJustClicked(){`  
+`// do something.`  
+`}`
+- Then we can bind to events using following syntax:  
+`<button (click)="mouseJustClicked()">`  
+`My Button`  
+`</button>`
+
+### Two way bindings.
+- Whenever we want to one event to effect other we use two way binding.
+- Need following imports in "app.modules.ts" for this example  
+`import { FormsModule } from '@angular/forms';`  
+`imports: [BrowserModule, FormsModule]`
+- Example:
+```
+<input type="text" [(ngModel)]="yourName" placeholder="Enter your name here">
+<h2>Hello {{yourName}}!</h2>
+```
+
+## Directives
+### Built-in Directives:
+- ngIf
+- ngIf-else
+- ngStyle
+- ngClass
+- ngFor

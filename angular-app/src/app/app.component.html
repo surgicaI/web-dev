@@ -1,9 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1 id="name">Simranjyot Singh Gill</h1>
+      <h1 id="name">Hi! I am {{ my_name }}</h1>
       <hr>
       <button class="btn btn-info">My Button</button>
+      <hr>
+      <input class="form-control" type="text" [(ngModel)]="yourName" placeholder="Enter your name here">
+      <h2>Hello {{yourName}}!</h2>
     </div>
   </div>
 </div>
