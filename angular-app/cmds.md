@@ -26,3 +26,20 @@
     }
 }
 ```
+
+### Different type of selectors are available: (file-app.component.ts)
+```
+@Component({
+  // standard selector, mainly used for components. eg: <app-root></app-root>
+  selector: 'app-root',
+
+  // attribute selector, mainly used for directives. eg: <div app-root></div>
+  selector: '[app-root]',
+
+  // class selector. eg: <div class="app-root"></div>
+  selector: '.app-root',
+
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+```
