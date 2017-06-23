@@ -7,4 +7,8 @@
 ## [DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 - `although its good to know these events but please use jquery to handle these events`
 
-## [Cool templates with nice fonts](https://wdexplorer.com/20-examples-beautiful-css-typography-design/)
+## [Cool CSS templates with nice fonts]
+- [20 typography examples.](https://wdexplorer.com/20-examples-beautiful-css-typography-design/)
+- [Fonts and animations](https://envato.com/blog/css3-typography-code-snippets/)
+
+## [Jet Brains has powerful IDE "WebStorm" which is free for one year for students.](https://www.jetbrains.com/webstorm/buy/#edition=discounts)

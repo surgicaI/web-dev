@@ -1,0 +1,37 @@
+body
+{
+   min-height: 2000px;
+}
+
+.main-content
+{
+  background-color: #31A791;
+}
+
+h1
+{ color: #ffffff;
+   font-family: "Great Vibes", cursive;
+   font-size: 8em;
+   font-weight: normal;
+   padding: 10px;
+   text-align: center;
+   text-shadow: 0 1px 1px #fff;
+}
+
+
+p
+{
+   color: #ffffff;
+   font-size: 29px;
+   font-family: "Libre Baskerville", serif;
+   line-height: 45px;
+   text-align: center;
+   text-shadow: 0 1px 1px #fff;
+   padding-top: 20px;
+}
+
+.hero-img
+{
+   height: 100%;
+   width: 100%;
+}

@@ -85,3 +85,9 @@
 - ngStyle
 - ngClass
 - ngFor
+
+### Command to bulld
+- `ng build` [for development build]
+- `ng build --prod` [for production build]
+- It will create a `dist` folder with all the files needed for deployment.
+
