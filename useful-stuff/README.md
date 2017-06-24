@@ -12,3 +12,11 @@
 - [Fonts and animations](https://envato.com/blog/css3-typography-code-snippets/)
 
 ## [Jet Brains has powerful IDE "WebStorm" which is free for one year for students.](https://www.jetbrains.com/webstorm/buy/#edition=discounts)
+
+## [To create a placeholder for image any resolution use following web service:](http://placehold.it/500x500)
+```
+- http://placehold.it/widthxheight
+- eg: <img src="http://placehold.it/500x500">
+```
+
+## [saas functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
