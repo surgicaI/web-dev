@@ -1,0 +1,59 @@
+@import "app.component.mixins";
+
+.split-view{
+  position:relative;
+  width: 100%;
+  height: 400px;
+
+  // Styling for banner
+  .banner{
+    width: 100vw;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+  }
+
+  //Styling for top-panel
+  .top-panel{
+    z-index: 2;
+    background-color: $top-panel-color;
+    width: 50vw;
+  }
+
+  //Styling for bottom-panel
+  .bottom-panel{
+    z-index: 1;
+    background-color: complement($top-panel-color);
+  }
+
+  // yellow handle
+  .handle {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: rgb(253, 171, 0);
+    width: 5px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+  //Styling Image
+  // .content{
+  //   position: absolute;
+  //   top: 0;
+  //   height: 100%;
+  //   width: 100%;
+  // }
+  // .split-image{
+  //   position: absolute;
+  //   top: 0;
+  //   left: 50%;
+  // }
+}
+
+h1{
+  text-align: center;
+}
+

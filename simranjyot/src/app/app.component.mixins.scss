@@ -1,0 +1,11 @@
+// Variables
+$top-panel-color : #8FC050;
+
+//Mixins
+@mixin clear-fix{
+  &:after{
+      content: "";
+      clear: both;
+      display: inline-block;
+    }
+}
