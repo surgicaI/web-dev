@@ -9,6 +9,11 @@
     color: #004e99; }
   100% {
     color: #003466; } }
+@keyframes shake {
+  0%, 100% {
+    transform: rotate(2.5deg); }
+  50% {
+    transform: rotate(-2.5deg); } }
 html, body {
   margin: 0;
   padding: 0;
@@ -17,20 +22,26 @@ html, body {
 .nav-bar {
   position: absolute;
   width: 100%;
-  background: transparent;
   display: flex;
-  justify-content: space-between;
-  top: 50px;
+  justify-content: flex-end;
+  top: 2.5%;
   padding: 0 2%; }
   .nav-bar a {
-    font-weight: bold;
-    font-size: 26px;
+    width: 10%;
+    font-size: 20px;
     text-decoration: none;
-    color: #6d7993;
+    color: #001f3d;
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
-    flex: 1;
-    text-align: center; }
+    text-align: center;
+    margin: 0 1.5%;
+    border: 2px solid #001f3d;
+    border-radius: 10px; }
+    .nav-bar a:hover {
+      background: #003466;
+      border: 2px solid #003466;
+      color: #CDC7C9;
+      font-weight: bold; }
 
 .cover {
   height: 100%;
@@ -40,6 +51,9 @@ html, body {
   background-size: cover;
   filter: grayscale(30%); }
   .cover .hello {
+    animation-name: shake;
+    animation-duration: 1.9s;
+    animation-iteration-count: infinite;
     font-family: 'Tangerine', cursive;
     font-size: 750%;
     font-weight: bold;
@@ -60,10 +74,6 @@ html, body {
     position: absolute;
     left: 40%;
     width: 60%; }
-  .cover .inner-hello {
-    animation-name: sheen;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; }
 
 .content {
   width: 100%;

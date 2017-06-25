@@ -2,6 +2,7 @@ $(document).ready(function() {
     $("#hello").animate({
         opacity: 1},
         2000, function() {
+            $(this).css('height', $("#inner-hello").height());
             var greeting_top = $(this).offset().top;
             var name_top = greeting_top + $(this).height();
             $("#name").css('top', name_top);
