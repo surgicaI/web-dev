@@ -20,3 +20,10 @@
 ```
 
 ## [saas functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+
+## [Very good resource for front-end](https://github.com/grab/front-end-guide)
+
+## [Example for full screen responsive landing page](https://www.youtube.com/watch?v=Y5SHm53WFEk)
+
+## Not verified stuff
+- [Design Tutorials](https://www.w3newbie.com/tutorials/)
