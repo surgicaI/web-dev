@@ -1,0 +1,75 @@
+@keyframes sheen {
+  0% {
+    color: #003466; }
+  25% {
+    color: #004e99; }
+  50% {
+    color: #005bb3; }
+  75% {
+    color: #004e99; }
+  100% {
+    color: #003466; } }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.nav-bar {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  top: 50px;
+  padding: 0 2%; }
+  .nav-bar a {
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    color: #6d7993;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center; }
+
+.cover {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("../images/background-1.jpg") no-repeat center;
+  background-size: cover;
+  filter: grayscale(30%); }
+  .cover .hello {
+    font-family: 'Tangerine', cursive;
+    font-size: 750%;
+    font-weight: bold;
+    position: absolute;
+    opacity: 0;
+    text-align: right;
+    color: #003466;
+    padding: 0;
+    margin: 0;
+    top: 35%;
+    left: 60%; }
+  .cover #name {
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    font-size: 700%;
+    font-weight: bold;
+    color: #003466;
+    position: absolute;
+    left: 40%;
+    width: 60%; }
+  .cover .inner-hello {
+    animation-name: sheen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+/*# sourceMappingURL=styles.css.map */

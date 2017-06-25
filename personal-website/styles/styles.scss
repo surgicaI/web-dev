@@ -1,0 +1,100 @@
+//Variables
+$primary-color : #003466;
+$secondary-color : lighten($primary-color, 15);
+$complement-color : lighten($primary-color, 10);
+$name-width:60%;
+$name-left: 100% - $name-width;
+$nav-background: transparentize(#000000, 1);
+$nav-links-color:#6d7993;
+
+// Animations
+@keyframes sheen {
+    0%   {color:$primary-color;}
+    25%   {color:$complement-color;}
+    50%  {color:$secondary-color;}
+    75%   {color:$complement-color;}
+    100% {color:$primary-color;}
+}
+
+//mixin
+@mixin name-mixin{
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    font-size: 700%;
+    font-weight: bold;
+    color: $primary-color;
+    position: absolute;
+    left: $name-left;
+    width: $name-width;
+}
+@mixin greeting-animation{
+    animation-name: sheen;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+// reset styles
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+//navbar styling
+.nav-bar{
+    position:absolute;
+    width: 100%;
+    background: $nav-background;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    padding: 0 2%;
+    a {
+        font-weight: bold;
+        font-size: 26px;
+        text-decoration: none;
+        color: $nav-links-color;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+        flex:1;
+        text-align: center;
+    }
+}
+
+//body styling
+.cover{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../images/background-1.jpg') no-repeat center;
+    background-size: cover;
+    filter: grayscale(30%);
+    .hello{
+        // font-family: 'Spectral', serif;
+        // font-family: 'Italianno', cursive;
+        font-family: 'Tangerine', cursive;
+        font-size: 750%;
+        font-weight: bold;
+        position: absolute;
+        opacity: 0;
+        text-align: right;
+        color: $primary-color;
+        padding: 0;
+        margin:0;
+        top: 35%;
+        left: 60%;
+    }
+    #name{
+        @include name-mixin;
+    }
+    .inner-hello{
+        @include greeting-animation;
+    }
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

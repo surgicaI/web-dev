@@ -21,9 +21,17 @@
 
 ## [saas functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 
+## [Free Images](https://www.pexels.com/)
+
 ## [Very good resource for front-end](https://github.com/grab/front-end-guide)
 
-## [Example for full screen responsive landing page](https://www.youtube.com/watch?v=Y5SHm53WFEk)
+## [Example](https://www.youtube.com/watch?v=Y5SHm53WFEk) for full screen responsive landing page. Basic concepts [JS fiddle](https://jsfiddle.net/j8pmh1rn/).
+
+## To refresh webpage automatically place one of following code in head
+```
+- <meta http-equiv="refresh" content="3" >
+- <script type="text/javascript" src="http://livejs.com/live.js"></script>
+```
 
 ## Not verified stuff
 - [Design Tutorials](https://www.w3newbie.com/tutorials/)
