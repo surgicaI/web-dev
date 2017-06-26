@@ -33,5 +33,7 @@
 - <script type="text/javascript" src="http://livejs.com/live.js"></script>
 ```
 
+## [Chrome Tips for developers](http://elijahmanor.com/7-chrome-tips-developers-designers-may-not-know/)
+
 ## Not verified stuff
 - [Design Tutorials](https://www.w3newbie.com/tutorials/)
