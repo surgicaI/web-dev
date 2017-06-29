@@ -19,6 +19,8 @@
 - eg: <img src="http://placehold.it/500x500">
 ```
 
+## [Minify CSS and Javascript](https://www.npmjs.com/package/minifier)
+
 ## [saas functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
 
 ## [Free Images](https://www.pexels.com/)
@@ -33,7 +35,9 @@
 - <script type="text/javascript" src="http://livejs.com/live.js"></script>
 ```
 
-## [Chrome Tips for developers](http://elijahmanor.com/7-chrome-tips-developers-designers-may-not-know/)
+## Chrome Tips for developers
+- [7 chrome tips developers designers](http://elijahmanor.com/7-chrome-tips-developers-designers-may-not-know/)
+- [Google chrome extensions for designers](http://www.hongkiat.com/blog/google-chrome-extensions-designers/)
 
 ## Not verified stuff
 - [Design Tutorials](https://www.w3newbie.com/tutorials/)

@@ -1,7 +1,7 @@
 @mixin name-mixin{
     font-family: 'Tangerine', cursive;
     margin: 0;
-    font-size: 700%;
+    font-size: 6.5em;
     font-weight: bold;
     color: $primary-color;
     position: absolute;
@@ -18,7 +18,6 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    // filter: grayscale(30%);
     z-index: -1;
 }
 @mixin scrolling{
@@ -37,5 +36,11 @@
     animation-name: vibes;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-delay: $animations-delay;
+    animation-play-state: paused;
+}
+@mixin contact-background-animation{
+    animation-name: wobble;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
