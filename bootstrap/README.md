@@ -1,4 +1,4 @@
-# BOOTSTRAP https://www.w3schools.com/bootstrap/default.asp
+# [BOOTSTRAP](https://www.w3schools.com/bootstrap/default.asp)
 
 ## There are 2 folders:
 * bootstrap-docs-examples - This is source code for bootstrap-3.3.7
@@ -10,3 +10,7 @@ Instructions:
 * Run command "python -m SimleHTTPServer 8000" or alias "serv"
 * Then in browser open url "localhost:8000"
 * The examples from bootstrap are present in bootstrap-docs-examples/docs/examples folder
+
+## [Bootswatch](https://bootswatch.com/)
+- To get a different looking bootstrap theme try bootswatch.
+- You can also get bootstrap without jquery [here](https://github.com/thednp/bootstrap.native)
