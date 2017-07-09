@@ -170,12 +170,56 @@ html, body {
   animation-iteration-count: infinite;
   animation-play-state: paused; }
 
+.cover-2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  background: url("../images/background-2.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  opacity: 0; }
+  .cover-2 .about-me-title {
+    height: 10%;
+    margin: 2.5% 0 2.5% 0; }
+    .cover-2 .about-me-title h1 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 4em;
+      user-select: none;
+      font-weight: bold;
+      color: #005ebc; }
+  .cover-2 .about-me-container {
+    width: 100%;
+    display: flex;
+    justify-content: left; }
+    .cover-2 .about-me-container .about-me-content {
+      width: 70%;
+      padding: 0 2.5% 0 5%; }
+      .cover-2 .about-me-container .about-me-content p {
+        text-align: left;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.5em;
+        user-select: none;
+        color: #757172; }
+    .cover-2 .about-me-container .about-me-image-container {
+      width: 25%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 8% 5% 0 2%; }
+      .cover-2 .about-me-container .about-me-image-container img {
+        height: 100%;
+        width: 100%;
+        float: right; }
+
 .page {
   height: 100%;
   margin: 0;
   padding: 0;
   z-index: -1;
-  background: radial-gradient(white, #ffffff);
   position: relative; }
 
 .contact {
@@ -246,8 +290,9 @@ html, body {
     align-items: center; }
     .footer-container .social-links span {
       padding: 0 5%;
-      color: #000;
-      font-size: 2em; }
+      color: #113a60;
+      font-size: 2em;
+      user-select: none; }
     .footer-container .social-links a {
       padding: 5%;
       text-decoration: none;
@@ -257,7 +302,7 @@ html, body {
   .footer-container .social-icon svg {
     height: 40px; }
     .footer-container .social-icon svg path {
-      fill: #000 !important; }
+      fill: #113a60 !important; }
   .footer-container .copyright-container {
     height: 100%;
     width: 100%;
@@ -265,6 +310,7 @@ html, body {
     align-items: center; }
   .footer-container .copyright-notice {
     font-size: 1.3em;
-    padding: 0 1%; }
+    padding: 0 1%;
+    user-select: none; }
 
 /*# sourceMappingURL=styles.css.map */

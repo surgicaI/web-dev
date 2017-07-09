@@ -76,13 +76,59 @@ html, body {
 .scroll{
     @include scrolling;
 }
+.cover-2{
+    @include banner;
+    background: url('../images/background-2.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    opacity: 0;
+    .about-me-title{
+        height: 10%;
+        margin: 2.5% 0 2.5% 0;
+        h1{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 4em;
+            user-select: none;
+            font-weight: bold;
+            color: $about-me-color;
+        }
+    }
+    .about-me-container{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        .about-me-content{
+            width: 70%;
+            padding: 0 2.5% 0 5%;
+            p{
+                text-align: left;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 1.5em;
+                user-select: none;
+                color: #757172;
+            }
+        }
+        .about-me-image-container{
+            width: 25%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 8% 5% 0 2%;
+            img{
+                height: 100%;
+                width: 100%;
+                float: right;
+            }
+        }
+    }
+}
 .page{
     @include banner;
-    // background: url('../images/background-2.jpg') no-repeat center;
-    // background-size: cover;
-    background: radial-gradient(lighten($background-color,20), $background-color);
     position: relative;
-}
+    }
 .contact{
     @include contact-background-animation;
     .contact-title{
@@ -164,6 +210,7 @@ html, body {
             padding:0 5%;
             color: $social-links-color;
             font-size: 2em;
+            user-select: none;
         }
         a{
             padding: 5%;
@@ -195,6 +242,7 @@ html, body {
     .copyright-notice{
         font-size: 1.3em;
         padding: 0 1%;
+        user-select: none;
     }
 }
 
