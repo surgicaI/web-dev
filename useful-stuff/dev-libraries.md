@@ -1,4 +1,4 @@
-## Libraries 
+## Libraries
 
 ### WTForms [python library]
 - validate forms and display error messages
@@ -12,3 +12,6 @@
 
 ## CKeditor
 - to provide an editor in text edit area
+
+## [Formspree](https://formspree.io/)
+- Add a form to static html page to send messages via email
